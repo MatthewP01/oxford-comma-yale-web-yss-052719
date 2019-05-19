@@ -8,5 +8,4 @@ def oxford_comma(array)
   else
     return "invalid input"
   end
-
 end
