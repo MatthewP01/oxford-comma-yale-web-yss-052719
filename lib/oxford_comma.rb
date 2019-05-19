@@ -5,6 +5,7 @@ def oxford_comma(array)
     string = array.join(" and ")
   elsif array.size >= 3
     start = array[0]
+    second_last[-2]
     string = array[0..-2].join(", ") + (", and ") + array.last
   else
     return "invalid input"
