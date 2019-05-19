@@ -7,5 +7,6 @@ def oxford_comma(array)
     string = array.join(" and ") + (", and") + array.last
   else
     return "invalid input"
+  end
 
 end
